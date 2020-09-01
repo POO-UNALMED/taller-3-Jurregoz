@@ -36,7 +36,7 @@ public class TV {
 		return control;
 	}
 	
-	public int getNumTV() {
+	static public int getNumTV() {
 		return numTV;
 	}
 	
