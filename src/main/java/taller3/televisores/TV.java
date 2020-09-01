@@ -40,7 +40,7 @@ public class TV {
 		return numTV;
 	}
 	
-	static public void getNumTV(int num) {
+	static public void setNumTV(int num) {
 		numTV = num;
 	}
 	
