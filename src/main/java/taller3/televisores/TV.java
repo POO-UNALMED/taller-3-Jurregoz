@@ -4,7 +4,7 @@ public class TV {
 	private Marca marca;
 	private int canal = 1;
 	private int precio = 1;
-	private boolean estado;
+	private boolean estado = true;
 	private int volumen = 500;
 	private Control control;
 	private static int numTV = 0;
