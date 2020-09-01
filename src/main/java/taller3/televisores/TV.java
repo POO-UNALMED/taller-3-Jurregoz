@@ -45,7 +45,9 @@ public class TV {
 	}
 	
 	public void setCanal(int canal) {
-		this.canal = canal;
+		if(canal <= 120 && this.estado == true) {
+			this.canal = canal;
+		}
 	}
 	
 	public void setMarca(Marca marca) {
@@ -57,7 +59,9 @@ public class TV {
 	}
 	
 	public void setVolumen(int volumen) {
-		this.volumen = volumen;
+		if(volumen <= 7 && this.estado == true){
+			this.volumen = volumen;
+		}
 	}
 	
 	public void setControl(Control control) {
