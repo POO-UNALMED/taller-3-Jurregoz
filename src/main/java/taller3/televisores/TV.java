@@ -2,7 +2,7 @@ package taller3.televisores;
 
 public class TV {
 	private Marca marca;
-	private int canal = 1;
+	private int ca>nal = 1;
 	private int precio = 500;
 	private boolean estado;
 	private int volumen = 1;
@@ -93,7 +93,7 @@ public class TV {
 	}
 	
 	public void volumenUp() {
-		if(this.volumen <8 && this.estado == true) { //condiciones para
+		if(this.volumen < 7 && this.estado == true) { //condiciones para
 			this.volumen ++;						 //subir volumen
 		}
 		else {
@@ -102,7 +102,7 @@ public class TV {
 	}
 	
 	public void volumenDown() {
-		if(this.volumen >=0 && this.estado == true) { //Condiciones para
+		if(this.volumen > 0 && this.estado == true) { //Condiciones para
 			this.volumen --;						  //bajar volumen
 
 		}
